@@ -9,7 +9,7 @@ no warnings 'recursion';
 my($root, $n);
 
 # first generate 20 random inserts
-while ($n++ < 333333) { insertbst($root, int(rand(10033333)))}
+while ($n++ < 3333) { insertbst($root, int(rand(10033333)))}
 #print Dumper($root);
 
 dfs_norec($root);
